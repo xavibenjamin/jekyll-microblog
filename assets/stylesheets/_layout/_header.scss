@@ -1,0 +1,30 @@
+// -------------------------------
+// HEADER
+// -------------------------------
+.header {
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.avatar {
+  margin-bottom: 1rem;
+  img {
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    max-width: 125px;
+  }
+}
+
+.site__name {
+  color: $dark-text-color;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: .2rem;
+}
+
+.site__bio {
+  color: lighten($text-color, 20%);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}

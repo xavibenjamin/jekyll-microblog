@@ -1,0 +1,13 @@
+// -------------------------------
+// FOOTER
+// -------------------------------
+.footer {
+  color: lighten($text-color, 25%);
+  font-size: .8rem;
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.footer--single {
+  text-align: center;
+}

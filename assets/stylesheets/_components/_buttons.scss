@@ -1,0 +1,21 @@
+// -------------------------------
+// BUTTONS
+// -------------------------------
+
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  padding: .7rem .8rem;
+  text-decoration: none;
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.button--primary {
+  background-color: $primary-color;
+  color: white;
+  &:hover,
+  &:focus {
+    background-color: darken($primary-color, 10%);
+    color: white;
+  }
+}

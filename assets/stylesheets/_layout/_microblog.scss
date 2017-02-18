@@ -1,0 +1,57 @@
+// -------------------------------
+// MICROBLOG
+// -------------------------------
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.home {
+  max-width: 520px;
+  width: 90%;
+}
+
+.single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.post {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.post:not(:last-of-type) {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.post--single {
+  margin: 3rem auto;
+  max-width: 1000px;
+  text-align: center;
+  p {
+    font-size: 2rem;
+  }
+  img {
+    height: auto;
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+.post__footer {
+  color: lighten($text-color, 20%);
+  font-size: .85rem;
+  padding-top: 1.5rem;
+  a {
+    color: inherit;
+  }
+}

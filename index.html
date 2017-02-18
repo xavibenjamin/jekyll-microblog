@@ -1,0 +1,14 @@
+---
+layout: default
+css_class: home
+---
+<section class="posts">
+  {% for p in site.posts %}
+    <article class="post">
+      {{ p.content }}
+      <footer class="post__footer">
+        <small><time datetime="{{ p.date | date_to_xmlschema }}"><a href="{{ p.url }}" title="Permalink to Microblog post">{{ p.date | date: "%a, %b %d, %Y at %I:%M%P" }}</time></a></small>
+      </footer>
+    </article>
+  {% endfor %}
+</section>

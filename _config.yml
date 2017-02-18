@@ -16,8 +16,18 @@
 title: Your awesome title
 email: your-email@domain.com
 
+avatar: han-solo.jpg
+full_name: Han Solo
+bio: Swindler. Scoundrel. Bad Ass.
+
 # Build settings
 markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+sass:
+  sass_dir: assets/stylesheets
+  style: :compressed
+
+# Output
+permalink: /:year/:month/:slug/
